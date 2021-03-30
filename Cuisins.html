@@ -1,0 +1,193 @@
+<!Doctype html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8">
+    <title> Cuisines </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="cuisins.css" >
+    <script src="homepage.js" ></script>
+</head>
+<body>
+    <header > 
+        <nav>	
+            <a class="logo" href="Homepage.html"><img class="logo" src="logo.png" alt="logo" title="" height="50px" width="50px" /></a>	
+           <ul class="nav__links" >
+                <li ><a href="Homepage.html">Home</a></li>
+                <li><a  id="ROD" onclick="ROD()">Recipe of day</a></li>
+                <li><a href="Converter.html">Converter</a></li>
+                <li><a href="Cuisins.html">Cuisine</a></li> 
+                <li><a href="Aboutus.html">About us</a></li>  
+                <li><a href=""><button type="button" onclick="Contact()">Contact</button></a></li>              
+            </ul>  
+        </nav>
+        <div class="container" >
+            
+            Whenever we cook, we cook with our heart. <br>
+            <hr>
+            <h1>Love is the secret ingredient</h1>
+            <hr>
+            Are you hungry? Here you can find recipes for every situation and for every person
+            or the  adresses of different cuisins in your city
+        </div>
+    </header>
+
+        <main>
+            <div class="grid">
+                <div>
+                    <h1>Korean cuisine</h1>
+                    <br>
+                    <span>
+                        <button class="fa fa-star " id="1" onclick="set(1)"></button>
+                        <button class="fa fa-star " id="2" onclick="set(2)"></button>
+                        <button class="fa fa-star " id="3" onclick="set(3)"></button>
+                        <button class="fa fa-star " id="4" onclick="set(4)"></button>
+                        <button class="fa fa-star " id="5" onclick="set(5)"></button>
+                    </span>
+                
+                    
+                    <p>
+                        <br>
+                        Korean cuisine is the customary cooking traditions and practices of the culinary arts of Korea. 
+                        Korean cuisine has evolved through centuries of social and political change. 
+                        Originating from ancient agricultural and nomadic traditions in Korea and southern Manchuria,<span id="dots">...</span> <span id="more"> 
+                        Korean cuisine has evolved through a complex interaction of the natural environment and different cultural trends.
+                        Korean cuisine is largely based on rice, vegetables, and (at least in the South) meats. Traditional Korean meals are 
+                        named for the number of side dishes (반찬; 飯饌; banchan) that accompany steam-cooked short-grain rice. Kimchi is served 
+                        at nearly every meal. Commonly used ingredients include sesame oil, doenjang (fermented bean paste), soy sauce, salt, 
+                        garlic, ginger, gochukaru (pepper flakes), gochujang (fermented red chili paste) and napa cabbage.
+                        Ingredients and dishes vary by province. Many regional dishes have become national, and dishes that were once regional 
+                        have proliferated in different variations across the country. Korean royal court cuisine once brought all of the unique 
+                        regional specialties together for the royal family. Foods are regulated by Korean cultural etiquette.</span></p>
+                        <button onclick="myFunction()" id="myBtn" class="btn btn-big">Read more</button>
+                </div>
+                <div style="padding-top: 50px; padding-left: 100px;">
+                    <div id="googleMap"></div>
+                    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7J2gYX0HRxxM_n2rcACpCgWBwtTaSlvU&callback=KoreanCuisine" async defer></script>
+            </div>
+            </div>
+            <div style="background-color: wheat; width: 100%;">
+                <div class="grid">
+                    <div >
+                            <img src="https://www.azamara.com/sites/default/files/heros/gettyimages-891284194_1.jpg" alt="cs1" width="500px" height="350px">
+                    </div>
+                    <div>
+                        <h1>Italian cuisine</h1>
+                        <br>
+                        <span>
+                            <button class="fa fa-star " id="6" onclick="set(6)"></button>
+                            <button class="fa fa-star " id="7" onclick="set(7)"></button>
+                            <button class="fa fa-star " id="8" onclick="set(8)"></button>
+                            <button class="fa fa-star " id="9" onclick="set(9)"></button>
+                            <button class="fa fa-star " id="10" onclick="set(10)"></button>
+                        </span>
+                    
+                        
+                        <p>
+                            <br>
+                            Italian cuisine is food typical of Italy. It has developed through centuries of social and economic changes, with 
+                            roots stretching to antiquity. Significant changes<span id="dots2">...</span> <span id="more2"> 
+                            occurred with the colonization of the Americas and the introduction of potatoes, tomatoes, capsicums, maize and sugar 
+                            beet, this last introduced in quantity in the 18th century. Italian cuisine is known for its regional diversity, 
+                            especially between the north and the south of the Italian peninsula. It offers an abundance of taste, and is one of 
+                            the most popular and copied in the world. It influenced several cuisines around the world, chiefly that of the United 
+                            States. Italian cuisine is generally characterized by its simplicity, with many dishes having only two to four main 
+                            ingredients. Italian cooks rely chiefly on the quality of the ingredients rather than on elaborate preparation. 
+                            Ingredients and dishes vary by region. Many dishes that were once regional have proliferated with variations throughout 
+                            the country.</span></p>
+                            <button onclick="myFunction2()" id="myBtn2" class="btn btn-big">Read more</button>
+                            <script src="homepage.js" ></script>
+                    </div>
+                    
+                </div>
+        </div>
+        <div style="background-color: thistle; width: 100%;">
+            <div class="grid">
+                
+                <div>
+                    <h1>Brazilian cuisine</h1>
+                    <br>
+                    <span>
+                        <button class="fa fa-star " id="11" onclick="set(11)"></button>
+                        <button class="fa fa-star " id="12" onclick="set(12)"></button>
+                        <button class="fa fa-star " id="13" onclick="set(13)"></button>
+                        <button class="fa fa-star " id="14" onclick="set(14)"></button>
+                        <button class="fa fa-star " id="15" onclick="set(15)"></button>
+                    </span>
+                
+                    
+                    <p>
+                        <br>
+                        Brazilian cuisine is the set of cooking practices and traditions of Brazil, and is characterized by European, Amerindian, 
+                        African, and most recently Asian (mostly Japanese) influences. It varies greatly by region, <span id="dots3">...</span> <span id="more3"> 
+                        reflecting the country's mix of native and immigrant populations, and its continental size as well. This has created a national cuisine 
+                        marked by the preservation of regional differences. Some typical dishes are feijoada, considered the country's national dish, and regional 
+                        foods such as beiju [pt], feijão tropeiro [pt], vatapá, moqueca, polenta (from Italian cuisine) and acarajé (from African cuisine). There 
+                        is also caruru, which consists of okra, onion, dried shrimp, and toasted nuts (peanuts or cashews), cooked with palm oil until a spread-like 
+                        consistency is reached; moqueca capixaba, consisting of slow-cooked fish, tomato, onions and garlic, topped with cilantro; and linguiça, a mildly 
+                        spicy sausage.</span></p>
+                        <button onclick="myFunction3()" id="myBtn3" class="btn btn-big">Read more</button>
+                        <script src="homepage.js" ></script>
+                </div>
+                <div >
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/agQ1P8FMTaw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+    </div>
+    
+        <footer>
+            <div class="footer1">
+                <div class="footer-section about">
+                    <a class="logo" href="Homepage.html"><img class="logo" src="logo.png" alt="logo" title="" height="50px" width="50px" /></a> <br>
+                    <p> Whenever we cook, we cook with our heart.</p>
+                    <hr>
+                    <h2>Love is the secret ingredient</h2>
+                    <hr>
+                    <p> Are you hungry? Here you can find recipes for every situation and for every person
+                    or the  adresses of different cuisins in your city </p>
+                    <div class="contact">
+                        <span><i class="fa fa-phone"></i> &nbsp; 8 778 37 97 221</span> <br>
+                        <span><i class="fa fa-envelope"></i> &nbsp; z.zhailanova@astanait.edu.kz</span> 
+             
+                    </div>
+                    <br>
+                    <div class="socials">
+             
+                        <a href="https://www.facebook.com/zhansaya.zhaylanova.9"><i class="fa fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/yolo62442/"><i class="fa fa-instagram"></i></a>
+                        <a href="https://twitter.com/?lang=ru"><i class="fa fa-twitter"></i></a>
+                        <a href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a>              
+                    </div>
+                    </div>
+                    <div class="footer-section links">
+                        <h2>Useful links</h2>
+                        <br>
+                        <ul>
+                            <li><a href="https://www.yummly.com/">Yummly</a></li>
+                            <li><a href="https://www.bettycrocker.com/">Betty Crocker</a></li>
+                            <li><a href="https://www.allrecipes.com/">All recipes</a></li>
+                            <li><a href="https://www.epicurious.com/">Epicurious</a></li>
+                            <li><a href="Homepage.html">C&C</a></li>        
+                        </ul>
+                    </div>
+                    <div class="footer-section contact">
+                        <h2>Contact us</h2>
+                        <br>
+                        <form action="Homepage.html" method="POST">
+                            <input type="email" name="email" class="text-input contact-input" placeholder="Your email address..."> <br>
+                            <textarea name="message" class="text-input contact-input" placeholder="Your message..."></textarea> <br>
+                            <button type="submit" onclick="Send()" class="btn btn-big ">
+                                <i class="fa fa-paper-plane"></i>Send
+                            </button>
+        
+                        </form>
+                    </div>
+                </div>
+                <div class="footer2">
+                    &copy; 2020 All right reserved | Desighed by Zhailanova Zhansaya
+                </div>
+            
+        </footer>
+</body>
+</html>

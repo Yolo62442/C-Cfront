@@ -1,0 +1,202 @@
+<!Doctype html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8">
+    <title> Recipes </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="recipes.css" >
+    <script src="homepage.js" ></script>
+</head>
+<body>
+    <header > 
+        <nav>	
+            <a class="logo" href="Homepage.html"><img class="logo" src="logo.png" alt="logo" title="" height="50px" width="50px" /></a>	
+           <ul class="nav__links" >
+                <li ><a href="Homepage.html">Home</a></li>
+                <li><a  id="ROD" onclick="ROD()">Recipe of day</a></li>
+                <li><a href="Converter.html">Converter</a></li>
+                <li><a href="Cuisins.html">Cuisine</a></li> 
+                <li><a href="Aboutus.html">About us</a></li>  
+                <li><a href=""><button type="button" onclick="Contact()">Contact</button></a></li>              
+            </ul>  
+        </nav>
+        <div class="container" >
+            
+            Whenever we cook, we cook with our heart. <br>
+            <hr>
+            <h1>Love is the secret ingredient</h1>
+            <hr>
+            Are you hungry? Here you can find recipes for every situation and for every person
+            or the  adresses of different cuisins in your city
+        </div>
+    </header>
+
+        <main>
+            <div class="grid">
+                <div>
+                    <h2>Homemade Sushi</h2>
+                    <br>
+                    <span>
+                        <button class="fa fa-star " id="1" onclick="set(1)"></button>
+                        <button class="fa fa-star " id="2" onclick="set(2)"></button>
+                        <button class="fa fa-star " id="3" onclick="set(3)"></button>
+                        <button class="fa fa-star " id="4" onclick="set(4)"></button>
+                        <button class="fa fa-star " id="5" onclick="set(5)"></button>
+                    </span>
+                    
+                    <div class="grid1">
+                        <div>
+                            <h2>11</h2> 
+                            ingridients
+                        </div>
+                        <div>
+                            <h2>30</h2> 
+                            minutes
+                        </div>
+                        <div>
+                            <h2>190</h2> 
+                            calories
+                        </div>
+                    </div>
+                    <p>Sushi (すし, 寿司, 鮨, pronounced [sɯ̥ɕiꜜ] or [sɯ̥ꜜɕi]) is a Japanese dish of prepared vinegared rice (鮨飯, sushi-meshi), 
+                        usually with some sugar and salt, accompanying a variety of ingredients (ネタ, neta), such as seafood, vegetables, 
+                        and occasionally tropical fruits. Styles of sushi <span id="dots">...</span><span id="more"> 
+                        and its presentation vary widely, but the one key ingredient is "sushi rice", also referred to as shari (しゃり), or sumeshi (酢飯).
+                        Sushi is traditionally made with medium-grain white rice, though it can be prepared with brown rice or short-grain rice. It is very 
+                        often prepared with seafood, such as squid, eel, yellowtail, salmon, tuna or imitation crab meat. Many types of sushi are vegetarian. 
+                        It is often served with pickled ginger (gari), wasabi, and soy sauce. Daikon radish or pickled daikon (takuan) are popular garnishes 
+                        for the dish.Sushi is sometimes confused with sashimi, a related dish in Japanese cuisine that consists of thinly sliced raw fish, 
+                        or occasionally meat, and an optional serving of rice.</span></p>
+                        <button onclick="myFunction()" id="myBtn" class="btn btn-big">Read more</button>
+                </div>
+                <div>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Sushi_platter.jpg/330px-Sushi_platter.jpg" alt="pizza">
+                </div>
+            </div>
+            <div style="background-color: wheat; width: 100%;">
+            <h1 style="text-align: center;">Ingredients</h1>
+            <div class="grid">
+                <div>
+                    <ul>
+                        <li>300g sushi rice</li>
+                        <li>100ml rice wine vinegar</li>
+                        <li>2 tbsp golden caster sugar</li>
+                        <li>3 tbsp mayonnaise</li>
+                        <li>1 tbsp rice wine vinegar</li>
+                        <li>1 tsp soy sauce</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li>25g bag nori (seaweed) sheets</li>
+                        <li>cucumber strips, smoked salmon,</li>
+                        <li>wasabi (optional - and fiery!)</li>
+                        <li>pickled ginger</li>
+                        <li>soy sauce</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+            <h1 style="text-align: center;">Preparation</h1>
+            <div class="grid">
+                <div>
+                    <h1>Step 1</h1>
+                    <p>Lay a nori sheet on the mat, shiny-side down. Dip your hands in the vinegared water, then pat handfuls of rice on top in a 1cm thick layer, leaving the furthest edge from you clear.
+                        Use a spoon to spread out a thin layer of mayonnaise down the middle of the rice.
+                        Get your child to top the mayonnaise with a line of their favourite fillings – here we’ve used tuna and cucumber.
+                        Lift the edge of the mat over the rice, applying a little pressure to keep everything in a tight roll.
+                    </p>
+                </div>
+                <div>
+                    <img src="https://www.fifteenspatulas.com/wp-content/uploads/2016/06/Homemade-Sushi-10-640x427.jpg" alt="st1">
+                </div>
+            </div>
+            <div class="grid">
+                <div>
+                    <img src="https://www.fifteenspatulas.com/wp-content/uploads/2016/06/Homemade-Sushi-11-640x427.jpg" alt="st2">
+                </div>
+                <div>
+                    <h1>Step 2</h1>
+                    <p>When you get to the edge without any rice, brush with a little water and continue to roll into a tight roll.
+                        Remove the mat and roll tightly in cling film before a grown-up cuts the sushi into thick slices, then unravel the cling film.
+                        Line a loaf tin with cling film, then place a thin layer of smoked salmon inside on top of the cling film.
+                        Press about 3cm of rice over the fish, fold the cling film over and press down as much as you can, using another tin if you have one.
+                    </p>
+                </div>
+            </div>
+            <div class="grid">
+                <div>
+                    <h1>Step 3</h1>
+                    <p>Turn block of sushi onto a chopping board. Get a grown-up to cut into fingers, then remove the cling film.
+                        Get a small square of cling film and place a topping, like half a prawn or a small piece of smoked salmon, on it. Use damp hands to 
+                        roll walnut-sized balls of rice and place on the topping.
+                        Bring the corners of the cling film together and tighten into balls by twisting it up, then unwrap and serve.
+                    </p>
+                </div>
+                <div>
+                    <img src="https://www.fifteenspatulas.com/wp-content/uploads/2016/06/Homemade-Sushi-12-640x427.jpg" alt="st3">
+                </div>
+            </div>
+            <div class="tutorial">
+                <h1>Here you can find online tutorial!</h1>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/eLRL18LvVyo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </main>
+    
+        <footer>
+            <div class="footer1">
+                <div class="footer-section about">
+                    <a class="logo" href="Homepage.html"><img class="logo" src="logo.png" alt="logo" title="" height="50px" width="50px" /></a> <br>
+                    <p> Whenever we cook, we cook with our heart.</p>
+                    <hr>
+                    <h2>Love is the secret ingredient</h2>
+                    <hr>
+                    <p> Are you hungry? Here you can find recipes for every situation and for every person
+                    or the  adresses of different cuisins in your city </p>
+                    <div class="contact">
+                        <span><i class="fa fa-phone"></i> &nbsp; 8 778 37 97 221</span> <br>
+                        <span><i class="fa fa-envelope"></i> &nbsp; z.zhailanova@astanait.edu.kz</span> 
+             
+                    </div>
+                    <br>
+                    <div class="socials">
+             
+                        <a href="https://www.facebook.com/zhansaya.zhaylanova.9"><i class="fa fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/yolo62442/"><i class="fa fa-instagram"></i></a>
+                        <a href="https://twitter.com/?lang=ru"><i class="fa fa-twitter"></i></a>
+                        <a href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a>              
+                    </div>
+                    </div>
+                    <div class="footer-section links">
+                        <h2>Useful links</h2>
+                        <br>
+                        <ul>
+                            <li><a href="https://www.yummly.com/">Yummly</a></li>
+                            <li><a href="https://www.bettycrocker.com/">Betty Crocker</a></li>
+                            <li><a href="https://www.allrecipes.com/">All recipes</a></li>
+                            <li><a href="https://www.epicurious.com/">Epicurious</a></li>
+                            <li><a href="Homepage.html">C&C</a></li>        
+                        </ul>
+                    </div>
+                    <div class="footer-section contact">
+                        <h2>Contact us</h2>
+                        <br>
+                        <form action="Homepage.html" method="POST">
+                            <input type="email" name="email" class="text-input contact-input" placeholder="Your email address..."> <br>
+                            <textarea name="message" class="text-input contact-input" placeholder="Your message..."></textarea> <br>
+                            <button type="submit" onclick="Send()" class="btn btn-big ">
+                                <i class="fa fa-paper-plane"></i>Send
+                            </button>
+        
+                        </form>
+                    </div>
+                </div>
+                <div class="footer2">
+                    &copy; 2020 All right reserved | Desighed by Zhailanova Zhansaya
+                </div>
+            
+        </footer>
+</body>
+</html>

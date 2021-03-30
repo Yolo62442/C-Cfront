@@ -1,0 +1,184 @@
+<!Doctype html>
+
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8">
+    <title> About us </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="aboutus.css" >
+
+
+
+</head>
+<body>
+    <header > 
+        <nav>	
+            <a class="logo" href="Homepage.html"><img class="logo" src="logo.png" alt="logo" title="" height="50px" width="50px" /></a>	
+           <ul class="nav__links" >
+                <li ><a href="Homepage.html">Home</a></li>
+                <li><a  id="ROD" onclick="ROD()">Recipe of day</a></li>
+                <li><a href="Converter.html">Converter</a></li>
+                <li><a href="Cuisins.html">Cuisine</a></li> 
+                <li><a href="Aboutus.html">About us</a></li>  
+                <li><a href=""><button type="button" onclick="Contact()">Contact</button></a></li>              
+            </ul>  
+        </nav>
+        <div class="container" >
+            
+            Whenever we cook, we cook with our heart. <br>
+            <hr>
+            <h1>Love is the secret ingredient</h1>
+            <hr>
+            Are you hungry? Here you can find recipes for every situation and for every person
+            or the  adresses of different cuisins in your city
+        </div>
+    </header>
+
+    <main>
+        <div class="grid">
+            <div>
+                <img src="aboutus2.jpg" alt="Welcome" width="350px" height="350px">
+            </div>
+            <div class="item1">
+                <h2>Author of the site</h2>
+                <hr>
+                Hello my dear friend, my naame is Zhansaya as you can see in the bottom of the site.
+                I'm 17 years old and i study at Astana IT University, 1 course. I was born in Central Kazakhstan and lived there till 6
+                yearsold, then my parents decided to move to Astana. 
+                If you are interested in IT and do not know where to go i recommend you to come and
+                consult about our university(location will be down). In my famile there are 5 children so 
+                i have 3 sisters and 1 brother. Also my father is the youngest boy in his family, as tradition demonstrate
+                we live with my grandmother. 
+                <br>
+                Also i'm new person in IT-sphere but i find it really interesting. Recently i;ve had some experience
+                in Hakaton and Stert-up project with the proffesors and students from my university
+            </div>
+        </div>
+    </main>
+    <br>
+    <div class="cl1">
+        <h1 style="text-align: center;">My hobbies </h1>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <h1>Reading</h1>
+            <img src="book.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <h1>TV-shows</h1>
+            <img src="tv-series.jpg" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+            <h1>Dancing</h1>
+            <img src="dance.jpg" style="width:100%">
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+        </div>
+        <br>
+        
+        <div style="background-color: thistle; text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>         
+        <script src="homepage.js" ></script>
+    </div>
+    <div style="background-color: wheat; width: 100%;">
+        <h2 style="text-align: center;">My Skills</h2>
+        <div class="grid1">
+            <div>
+                <h2>Hard skills</h2>
+                <ul>
+                    <li>C++</li>
+                    <li>Java</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Photoshop</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+            <div>
+                <h2>Soft Skills</h2>
+                <ul>
+                    <li>Responsible</li>
+                    <li>Reliable</li>
+                    <li>Emotionally Stable</li>
+                    <li>Social</li>
+                    <li>Stress Resistance</li>
+                    <li>Comunicable</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="grid1">
+    <div>
+        <div id="googleMap" style="width: 400px;height:400px;"></div>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7J2gYX0HRxxM_n2rcACpCgWBwtTaSlvU&callback=myMap" async defer></script>
+    </div>
+    <div style="border: 5px solid wheat; margin-right: 100px; padding-top: 20px;">
+        <h1>Here i show you the location of the Astana IT University, because
+        most of my time i spend there.</h1>
+    </div>
+</div>
+    <footer>
+        <div class="footer1">
+            <div class="footer-section about">
+                <a class="logo" href="Homepage.html"><img class="logo" src="logo.png" alt="logo" title="" height="50px" width="50px" /></a> <br>
+                <p> Whenever we cook, we cook with our heart.</p>
+                <hr>
+                <h2>Love is the secret ingredient</h2>
+                <hr>
+                <p> Are you hungry? Here you can find recipes for every situation and for every person
+                or the  adresses of different cuisins in your city </p>
+                <div class="contact">
+                    <span><i class="fa fa-phone"></i> &nbsp; 8 778 37 97 221</span> <br>
+                    <span><i class="fa fa-envelope"></i> &nbsp; z.zhailanova@astanait.edu.kz</span> 
+         
+                </div>
+                <br>
+                <div class="socials">
+         
+                    <a href="https://www.facebook.com/zhansaya.zhaylanova.9"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/yolo62442/"><i class="fa fa-instagram"></i></a>
+                    <a href="https://twitter.com/?lang=ru"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a>              
+                </div>
+                </div>
+                <div class="footer-section links">
+                    <h2>Useful links</h2>
+                    <br>
+                    <ul>
+                        <li><a href="https://www.yummly.com/">Yummly</a></li>
+                        <li><a href="https://www.bettycrocker.com/">Betty Crocker</a></li>
+                        <li><a href="https://www.allrecipes.com/">All recipes</a></li>
+                        <li><a href="https://www.epicurious.com/">Epicurious</a></li>
+                        <li><a href="Homepage.html">C&C</a></li>        
+                    </ul>
+                </div>
+                <div class="footer-section contact">
+                    <h2>Contact us</h2>
+                    <br>
+                    <form action="Homepage.html" method="POST">
+                        <input type="email" name="email" class="text-input contact-input" placeholder="Your email address..."> <br>
+                        <textarea name="message" class="text-input contact-input" placeholder="Your message..."></textarea> <br>
+                        <button type="submit" onclick="Send()" class="btn btn-big ">
+                            <i class="fa fa-paper-plane"></i>Send
+                        </button>
+    
+                    </form>
+                </div>
+            </div>
+            <div class="footer2">
+                &copy; 2020 All right reserved | Desighed by Zhailanova Zhansaya
+            </div>
+        
+    </footer>
+</body>
+</html>

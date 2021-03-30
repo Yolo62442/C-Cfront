@@ -1,0 +1,193 @@
+<!Doctype html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8">
+    <title> Recipes </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="recipes.css" >
+    <script src="homepage.js" ></script>
+</head>
+<body>
+    <header > 
+        <nav>	
+            <a class="logo" href="Homepage.html"><img class="logo" src="logo.png" alt="logo" title="" height="50px" width="50px" /></a>	
+           <ul class="nav__links" >
+                <li ><a href="Homepage.html">Home</a></li>
+                <li><a  id="ROD" onclick="ROD()">Recipe of day</a></li>
+                <li><a href="Converter.html">Converter</a></li>
+                <li><a href="Cuisins.html">Cuisine</a></li> 
+                <li><a href="Aboutus.html">About us</a></li>  
+                <li><a href=""><button type="button" onclick="Contact()">Contact</button></a></li>              
+            </ul>  
+        </nav>
+        <div class="container" >
+            
+            Whenever we cook, we cook with our heart. <br>
+            <hr>
+            <h1>Love is the secret ingredient</h1>
+            <hr>
+            Are you hungry? Here you can find recipes for every situation and for every person
+            or the  adresses of different cuisins in your city
+        </div>
+    </header>
+
+        <main>
+            <div class="grid">
+                <div>
+                    <h2>Homemade ice cream</h2>
+                    <br>
+                    <span>
+                        <button class="fa fa-star " id="1" onclick="set(1)"></button>
+                        <button class="fa fa-star " id="2" onclick="set(2)"></button>
+                        <button class="fa fa-star " id="3" onclick="set(3)"></button>
+                        <button class="fa fa-star " id="4" onclick="set(4)"></button>
+                        <button class="fa fa-star " id="5" onclick="set(5)"></button>
+                    </span>
+                    
+                    <div class="grid1">
+                        <div>
+                            <h2>6</h2> 
+                            ingridients
+                        </div>
+                        <div>
+                            <h2>30</h2> 
+                            minutes
+                        </div>
+                        <div>
+                            <h2>120</h2> 
+                            calories
+                        </div>
+                    </div>
+                    <p>Ice cream (derived from earlier iced cream or cream ice) is a sweetened frozen food typically eaten as a snack or dessert. It may be 
+                        made from dairy milk or cream and is flavoured with a sweetener, either sugar or an alternative, and any spice,<span id="dots">...</span><span id="more"> 
+                        such as cocoa or vanilla. Colourings are usually added, in addition to stabilizers. The mixture is stirred to incorporate air spaces and cooled below the 
+                        freezing point of water to prevent detectable ice crystals from forming. The result is a smooth, semi-solid foam that is solid at very low temperatures 
+                        (below 2 °C or 35 °F). It becomes more malleable as its temperature increases.The meaning of the name "ice cream" varies from one country to another. 
+                        Terms such as "frozen custard," "frozen yogurt," "sorbet," "gelato," and others are used to distinguish different varieties and styles. </span></p>
+                        <button onclick="myFunction()" id="myBtn" class="btn btn-big">Read more</button>
+                </div>
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTfBpljlwO_ykGZkXduRw9cCKJxvXBt9Pvo5EsUg2NgM4T0iujn" alt="pizza">
+                </div>
+            </div>
+            <div style="background-color: wheat; width: 100%;">
+            <h1 style="text-align: center;">Ingredients</h1>
+            <div class="grid">
+                <div>
+                    <ul>
+                        <li>8 egg yolks</li>
+                        <li>1 cup granulated sugar, divided</li>
+                        <li>1 cup heavy cream</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li>3 cups half-and-half</li>
+                        <li>Pinch salt</li>
+                        <li>1 tablespoon vanilla extract (optional)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+            <h1 style="text-align: center;">Preparation</h1>
+            <div class="grid">
+                <div>
+                    <h1>Step 1</h1>
+                    <p> In a medium bowl, whisk together the egg yolks and half of the sugar. Set aside.
+                        In a medium saucepan, stir together the cream, half-and-half, salt, and remaining sugar. 
+                        Heat the mixture over medium-high heat, stirring often, until it comes to a simmer, then 
+                        reduce heat to medium.
+                    </p>
+                </div>
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ68esxk4g7sjCqvrEhddwnWF-Pu8l-Ev--XM1ksFRhGkdY64QW" alt="st1">
+                </div>
+            </div>
+            <div class="grid">
+                <div>
+                    <img src="https://us.123rf.com/450wm/shaiith/shaiith1406/shaiith140600133/29163788-preparing-homemade-fruit-ice-cream.jpg?ver=6" alt="st2">
+                </div>
+                <div>
+                    <h1>Step 2</h1>
+                    <p>Add about 1/2 cup of the cream mixture to the egg mixture while whisking constantly 
+                        (this helps prevent the eggs from cooking). Repeat with another 1/2 cup of the cream mixture.
+                        Using a heatproof spatula, stir the cream mixture in the saucepan constantly as you pour the egg mixture into the pan.
+                    </p>
+                </div>
+            </div>
+            <div class="grid">
+                <div>
+                    <h1>Step 3</h1>
+                    <p>Cook, stirring constantly, until thickened and mixture coats the back of the spatula, 1 to 2 minutes longer. Remove from heat.
+                        train the mixture through a fine-mesh sieve into a clean bowl and whisk in the vanilla extract. Set the bowl in an ice bath and 
+                        stir the base occasionally until it's cooled to room temperature. Remove the bowl from the ice bath, cover with plastic wrap, 
+                        and refrigerate at least 2 to 4 hours or overnight before churning.
+                    </p>
+                </div>
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQA_38MODzaSsPWXB8w_KIzXItTIvyullgZVNsfHQ-vGzHkxWX4" alt="st3">
+                </div>
+            </div>
+            <div class="tutorial">
+                <h1>Here you can find online tutorial!</h1>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/C6Z1z3shZRk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+             </div>
+        </main>
+    
+        <footer>
+            <div class="footer1">
+                <div class="footer-section about">
+                    <a class="logo" href="Homepage.html"><img class="logo" src="logo.png" alt="logo" title="" height="50px" width="50px" /></a> <br>
+                    <p> Whenever we cook, we cook with our heart.</p>
+                    <hr>
+                    <h2>Love is the secret ingredient</h2>
+                    <hr>
+                    <p> Are you hungry? Here you can find recipes for every situation and for every person
+                    or the  adresses of different cuisins in your city </p>
+                    <div class="contact">
+                        <span><i class="fa fa-phone"></i> &nbsp; 8 778 37 97 221</span> <br>
+                        <span><i class="fa fa-envelope"></i> &nbsp; z.zhailanova@astanait.edu.kz</span> 
+             
+                    </div>
+                    <br>
+                    <div class="socials">
+             
+                        <a href="https://www.facebook.com/zhansaya.zhaylanova.9"><i class="fa fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/yolo62442/"><i class="fa fa-instagram"></i></a>
+                        <a href="https://twitter.com/?lang=ru"><i class="fa fa-twitter"></i></a>
+                        <a href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a>              
+                    </div>
+                    </div>
+                    <div class="footer-section links">
+                        <h2>Useful links</h2>
+                        <br>
+                        <ul>
+                            <li><a href="https://www.yummly.com/">Yummly</a></li>
+                            <li><a href="https://www.bettycrocker.com/">Betty Crocker</a></li>
+                            <li><a href="https://www.allrecipes.com/">All recipes</a></li>
+                            <li><a href="https://www.epicurious.com/">Epicurious</a></li>
+                            <li><a href="Homepage.html">C&C</a></li>        
+                        </ul>
+                    </div>
+                    <div class="footer-section contact">
+                        <h2>Contact us</h2>
+                        <br>
+                        <form action="Homepage.html" method="POST">
+                            <input type="email" name="email" class="text-input contact-input" placeholder="Your email address..."> <br>
+                            <textarea name="message" class="text-input contact-input" placeholder="Your message..."></textarea> <br>
+                            <button type="submit" onclick="Send()" class="btn btn-big ">
+                                <i class="fa fa-paper-plane"></i>Send
+                            </button>
+        
+                        </form>
+                    </div>
+                </div>
+                <div class="footer2">
+                    &copy; 2020 All right reserved | Desighed by Zhailanova Zhansaya
+                </div>
+            
+        </footer>
+</body>
+</html>
